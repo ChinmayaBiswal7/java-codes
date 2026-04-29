@@ -1,6 +1,6 @@
 package Day_1;
 import java.util.*;
-import java.io.*;
+
 
 class min_max{
 
@@ -61,6 +61,7 @@ void Max(){
      
   }
 }
+
 
 
 

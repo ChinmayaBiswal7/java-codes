@@ -17,7 +17,9 @@ class second_largest{
                    for(int i = 0; i<size;i++){
                    System.out.println("Enter the "+ i + "element");
                    arr[i] = sc.nextInt();
-                   }             
+                   }
+                   
+                   sc.close();
                 }
             int finding(){
 
@@ -43,7 +45,7 @@ class second_largest{
         second_largest obj = new second_largest();
         obj.input();
         int n = obj.finding();
-        System.out.println(n);
+        System.out.println("The second largest element is: " + n);
 
     }
 
